@@ -28,7 +28,7 @@ public class ContactTest {
                 .method("GET")
                 .willRespondWith()
                 .status(200)
-                .body("Hello from pact service 2")
+                .body("Hello from pact test provider service")
                 .toPact();
     }
 
